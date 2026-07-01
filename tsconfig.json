@@ -2,8 +2,11 @@
   // Visit https://aka.ms/tsconfig to read more about this file
   "compilerOptions": {
     // File Layout
-    // "rootDir": "./src",
-    // "outDir": "./dist",
+    "rootDir": "./src",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    // "outDir": "./dist",                                  /* Specify the base directory to resolve non-relative module names. */
 
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
